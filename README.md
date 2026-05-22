@@ -87,7 +87,7 @@ project_folder/\
 │\
 ├── pose_demo_single.py\
 ├── pose_demo_multi.py\
-├── pose_landmarker.task\
+├── pose_landmarker_lite.task\
 ├── logo.png\
 ├── environment.yaml\
 ├── screenshots/\
@@ -105,12 +105,13 @@ or
 **Single-Person**
 `pyinstaller --onefile --noconsole
 --add-data "logo.png;."
+--add-data "pose_landmarker_lite.task;."
 pose_demo_single.py`
 
 **Multi-Person**
 `pyinstaller --onefile --noconsole
 --add-data "logo.png;."
---add-data "pose_landmarker.task;."
+--add-data "pose_landmarker_lite.task;."
 pose_demo_multi.py`
 
 ## Notes on Performance
@@ -161,7 +162,7 @@ Ensure:
 
 Verify that:
 
-`pose_landmarker.task`
+`pose_landmarker_lite.task`
 
 exists in the project directory.
 
