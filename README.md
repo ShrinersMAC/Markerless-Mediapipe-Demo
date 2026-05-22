@@ -86,7 +86,7 @@ project_folder/\
 ├── logo.png\
 ├── environment.yaml\
 ├── screenshots/\
-└── videos/\
+└── videos/
 
 ## Packaging as an Executable (.exe)
 This project can be packaged into a standalone Windows executable using PyInstaller
