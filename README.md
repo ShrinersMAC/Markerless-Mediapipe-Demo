@@ -30,14 +30,12 @@ git clone https://github.com/ShrinersMAC/Markerless-Mediapipe-Demo`
 cd ~/Markerless-Mediapipe-Demo`
 ```
 
-### 2. Create the Conda environment
-The repository includes an environment.yaml file containing:
-+ Environment name
-+ Required packages
-+ Exact Python version (python=3.11.13)
-+ Exact Mediapipe version (mediapipe==0.10.35)
+### 2. Create the Conda environment (*recommended*)
+The repository includes an environment.yaml file for setting up the recommended conda environment, which includes [a required version of Python (3.11.13)](https://www.python.org/downloads/release/python-31113/).
 
-Create the environment using:
+If needed, [Anaconda can be downloaded for free here](https://www.anaconda.com/download/success?reg=skipped).
+
+Open an Anaconda Command Prompt. From the project root directory, create the environment using:
 
 `conda env create -f environment.yaml`
 
@@ -52,6 +50,11 @@ You can verify the Python version with:
 Expected output:
 
 `python 3.11.13`
+
+If not using a conda environment, the primary requirements are:
++ Exact Python version (python=3.11.13)
++ Exact Mediapipe version (mediapipe==0.10.35): `pip install mediapipe==0.10.35`
++ Install missing dependencies as needed: `pip install cv2 time os sys`
 
 ## Running the Application
 ### Single-Person Tracking
@@ -167,5 +170,4 @@ exists in the project directory.
 Built using:
 + MediaPipe (developed by Google)
 + OpenCV
-+ NumPy
 + PyInstaller
