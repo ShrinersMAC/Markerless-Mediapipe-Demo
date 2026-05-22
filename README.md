@@ -31,7 +31,7 @@ cd ~/Markerless-Mediapipe-Demo`
 ```
 
 ### 2. Create the Conda environment (*recommended*)
-The repository includes an environment.yaml file for setting up the recommended conda environment, which includes [a required version of Python (3.11.13)](https://www.python.org/downloads/release/python-31113/).
+The repository includes an environment.yaml file for setting up the recommended conda environment, which also installs a required version of Python (3.11.13).
 
 If needed, [Anaconda can be downloaded for free here](https://www.anaconda.com/download/success?reg=skipped).
 
@@ -52,7 +52,7 @@ Expected output:
 `python 3.11.13`
 
 If not using a conda environment, the primary requirements are:
-+ Exact Python version (python=3.11.13)
++ [Exact Python version (python=3.11.13)](https://www.python.org/downloads/release/python-31113/)
 + Exact Mediapipe version (mediapipe==0.10.35): `pip install mediapipe==0.10.35`
 + Install missing dependencies as needed: `pip install cv2 time os sys`
 
