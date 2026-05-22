@@ -19,6 +19,7 @@ This project allows users to stand in front of a webcam or connected camera and 
 ## Requirements
 ### Software
 + Python 3.11.13
++ Mediapipe 0.10.35
 + Conda (Miniconda or Anaconda recommended)
 + Webcam or USB camera
 
@@ -34,6 +35,7 @@ The repository includes an environment.yaml file containing:
 + Environment name
 + Required packages
 + Exact Python version (python=3.11.13)
++ Exact Mediapipe version (mediapipe==0.10.35)
 
 Create the environment using:
 
@@ -140,6 +142,10 @@ to:
 `cap = cv2.VideoCapture(1)`
 
 if multiple cameras are connected.
+
+### Controls (`Spacebar`, `R`, or `Esc`) not working
+
+Ensure window displaying the demo is the active window by clicking on the video feed
 
 ### Executable cannot find model or logo
 
