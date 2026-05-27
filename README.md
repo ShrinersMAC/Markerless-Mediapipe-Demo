@@ -26,8 +26,8 @@ This project allows users to stand in front of a webcam or connected camera and 
 ## Installation
 ### 1. Clone the repository
 ```
-git clone https://github.com/ShrinersMAC/Markerless-Mediapipe-Demo`
-cd ~/Markerless-Mediapipe-Demo`
+git clone https://github.com/ShrinersMAC/Markerless-Mediapipe-Demo
+cd Markerless-Mediapipe-Demo
 ```
 
 ### 2. Create the Conda environment (*recommended*)
